@@ -1,0 +1,66 @@
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --blue-600: #2c7dfa;
+  --blue-500: #3685ff;
+  --text-preset-1: 2.2rem;
+  --text-preset-2: 1.5rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--slate-300);
+  font-family: 'Outfit', sans-serif;
+}
+
+.qr-card {
+  width: 32rem; /* 1rem = 10px */
+  height: 49.9rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  margin: auto;
+}
+
+.qr-card img {
+  width: 28.8rem;
+  height: 28.8rem;
+  padding: 1.6rem 1.6rem 0 1.6rem;
+}
+
+.card-info {
+  width: 28.8rem;
+  height: 13.1rem;
+  padding: 0 1.6rem;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: inherit;
+  font-weight: 700;
+  color: var(--slate-900);
+  font-size: var(--text-preset-1);
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: inherit;
+  font-weight: 400;
+  color: var(--slate-500);
+  font-size: var(--text-preset-2);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
